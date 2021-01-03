@@ -1,0 +1,1 @@
+# froned-magazine-dev
