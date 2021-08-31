@@ -8,7 +8,7 @@ import Stage from './components/stage/stage';
 import { connect } from 'react-redux';
 
 function App(props) {
-  const { flagCon} = props
+  const { flagCon } = props
 
   return (
     <div id="body" className="App">
@@ -18,8 +18,9 @@ function App(props) {
       <Sidebar_left></Sidebar_left>
       <div id="wrap_center" className={flagCon ? "center_width_on_open_con row" : "center_width_on_close_con row"} >
         <>
-        <Menu></Menu>
-          <Stage edit={true}></Stage></> 
+          <Menu></Menu>
+          <Stage edit={true}></Stage></>
+        <div></div>
       </div>
     </div>
   )
